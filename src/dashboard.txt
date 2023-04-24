@@ -1,0 +1,49 @@
+                          dashboard-Angular project workflow
+                          ----------------------------------
+
+        1.craete project:ng new admin-dashboard
+        2.run project:ng s in project folder and type localhost:4200 in chrome
+        3.import /install 3rd  pary libaries to complete project 
+           -Install Angular Material:ng add @angular/material
+           -enable typography
+           -enable animation
+            -to use any components from meterial
+              -copy the api for particular component and paste in appmodule.ts
+        4.delete all contents in AppComponent.html file
+        5.check 3rd party libaries working project or not
+          -if not import prebulid theme to your project style.css file
+        6.create component :ng g c component name
+          -header
+          -footer
+          -side bar
+          -dashboard 
+           -card
+           -area-chart
+           -table
+           -pie-chart
+             -employee
+             -contact
+             -gallary
+             -lead
+        7.appcomponent.html avarude selector vech connect cheyuka in<>ex:<app-header></app-header>,<app-footer></app-footer>
+        8.angular material nn api copy cheyth app module.tsimport cheya athpole import class ilum add cheyuka..athil side barum dashboardum vekkuka
+        9.setup path  for employee,contacs,leads,gallary
+
+  how to share data parent and child:::::
+  ---------------------------------
+  1:child to parent:@output deceorator
+  2:parent to child:@input decorator
+
+  attribute directive:to apply style to html elements
+  ---------------------------------------------------
+    -ngclass
+    
+    10.npm install highcharts-angular --save
+    11.import {HighchartsChartModule} from 'highcharts-angular';
+    12.add HighchartsChartModule in class
+    12.npm install highcharts --save
+
+    AOT compalation(ahead-of-time) using angular
+    ------------------------------------------
+    1.justintime(JIT)
+    2.AOT
